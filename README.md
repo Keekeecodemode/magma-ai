@@ -55,19 +55,4 @@ A warm, intelligent AI beauty coach that answers your custom grooming questions 
 
 *Major layout containers utilize **sharp, border-radius-free edges** and left ember borders to emphasize an expensive, premium editorial look.*
 
----
 
-## 5. Local Setup Instructions
-
-1. Clone or navigate to the directory:
-   ```bash
-   cd C:\Users\Keekee\.gemini\antigravity\scratch\magma-ai
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
