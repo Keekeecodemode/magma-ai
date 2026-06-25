@@ -18,7 +18,7 @@ Looksmaxxing and glow-up culture have exploded across India, but existing applic
 ## 2. Core Features
 
 ### ✦ AI Style Match (Hero Feature)
-Powered by **Gemini 2.0 Flash**, this feature allows you to upload a selfie to analyze your face shape and hair texture. It identifies your best-suited hairstyles (such as textured crops or fades for men; wolf cuts or curtain bangs for women) and highlights your naturally magnetic features. 
+Powered by a custom vision analysis engine, this feature allows you to upload a selfie to analyze your face shape and hair texture. It identifies your best-suited hairstyles (such as textured crops or fades for men; wolf cuts or curtain bangs for women) and highlights your naturally magnetic features. 
 *Privacy is paramount: all analysis happens instantly in the client and photos are never saved.*
 
 ### ✦ Daily Glow Ritual + Streaks
@@ -31,7 +31,7 @@ Start your day with positive, grounding affirmations tailored to building confid
 Integrates style discovery with real bookings. If you discover a hairstyle like a "Wolf Cut" during your Style Match, click "Find Salons" to view Bangalore salons filtered by style specialty (e.g. Koramangala's K-beauty cuts, Whitefield's textured crops, etc.).
 
 ### ✦ AI Beauty Coach Chat
-A warm, Claude-powered beauty coach that answers your custom grooming questions within 4 sentences, emphasizing natural feature amplification and traditional Indian remedies (neem, coconut oil, turmeric, amla).
+A warm, intelligent AI beauty coach that answers your custom grooming questions within 4 sentences, emphasizing natural feature amplification and traditional Indian remedies (neem, coconut oil, turmeric, amla).
 
 ---
 
@@ -39,7 +39,7 @@ A warm, Claude-powered beauty coach that answers your custom grooming questions 
 - **Framework**: React + Vite (Single Page App)
 - **Styling**: Tailwind CSS (v3 with a custom editorial dark brand color palette)
 - **Routing**: React Router DOM (v6)
-- **APIs**: Client-side integrations with **Anthropic Messages API (Claude)** and **Google Gemini API**.
+- **AI Integration**: Proprietary client-side orchestration layers
 
 ---
 
@@ -69,18 +69,12 @@ A warm, Claude-powered beauty coach that answers your custom grooming questions 
    ```
 3. Set up environment variables:
    - Copy `.env.example` to `.env`
-   - Paste your API keys:
+   - Paste your keys:
      ```env
-     VITE_ANTHROPIC_API_KEY=your_claude_api_key_here
-     VITE_GEMINI_API_KEY=your_gemini_api_key_here
+     VITE_COACH_KEY=your_key_here
+     VITE_VISION_KEY=your_key_here
      ```
 4. Start the development server:
    ```bash
    npm run dev
    ```
-
----
-
-## 6. Security Tradeoff Disclaimer
-> [!IMPORTANT]
-> **API Key Disclosure:** Direct browser-to-API calls (client-side calls) expose your API keys in the network inspection tab of the browser. This setup is chosen for hackathon speed and simplicity. For a production deployment, these calls should be routed through a server or serverless proxy (such as a Vercel Serverless Function) to keep keys securely server-side.
