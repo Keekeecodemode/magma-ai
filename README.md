@@ -1,5 +1,7 @@
 # MAGMA.AI — "Be Magnetic"
 
+**Live Demo**: [https://magma-ai-mu.vercel.app](https://magma-ai-mu.vercel.app)
+
 An AI-powered glow-up companion that discovers your perfect style, builds your daily ritual, and connects you to the right specialist — without ever scoring your face.
 
 > **Duolingo for beauty and grooming.**
