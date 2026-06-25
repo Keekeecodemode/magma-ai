@@ -24,6 +24,9 @@ Powered by **Gemini 2.0 Flash**, this feature allows you to upload a selfie to a
 ### ✦ Daily Glow Ritual + Streaks
 A customized habit-building dashboard (morning, evening, and weekly) that adapts to your age, skin profile (Oily/Dry/Combination/Normal), and hair texture. Tick off habits like double cleansing, lymphatic face massages, or hair oiling to grow your daily streak and earn milestone badges (Consistent 🔥, Glowing ✨, Magnetic AF 💎).
 
+### ✦ Daily Affirmations for Self-Improvement
+Start your day with positive, grounding affirmations tailored to building confidence, self-worth, and visual presence. Centered as the home dashboard centerpiece, these personalized reflections promote a healthy, positive self-image alongside physical grooming habits.
+
 ### ✦ Salon Finder (Bangalore)
 Integrates style discovery with real bookings. If you discover a hairstyle like a "Wolf Cut" during your Style Match, click "Find Salons" to view Bangalore salons filtered by style specialty (e.g. Koramangala's K-beauty cuts, Whitefield's textured crops, etc.).
 
