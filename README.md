@@ -67,14 +67,7 @@ A warm, intelligent AI beauty coach that answers your custom grooming questions 
    ```bash
    npm install
    ```
-3. Set up environment variables:
-   - Copy `.env.example` to `.env`
-   - Paste your keys:
-     ```env
-     VITE_COACH_KEY=your_key_here
-     VITE_VISION_KEY=your_key_here
-     ```
-4. Start the development server:
+3. Start the development server:
    ```bash
    npm run dev
    ```
